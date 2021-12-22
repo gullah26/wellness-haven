@@ -1,108 +1,121 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![logo](/screenshot/logo.png)#Wellness Haven#
 
-Welcome USER_NAME,
+Wellness haven website is built for users seeking answers to numerous wellness and health tips. It gives it's users the opportunity to connect to different health coaches around the world.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This website makes it easier for users to find relevant informations about the cause and fix of their unhealthiness and also help them to identfy analyse and proofer professional solutions with wellness and healthy life hacks that could turn around their fitness to something they can be proud of.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+![rendering on all screen sizes](/screenshot/devices.png)
 
-## Gitpod Reminders
+#Features
+_______________________________
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+*Navigation
 
-`python3 -m http.server`
+    * Located at the topmost part of the page, in it there is a website logo depicting the name of the website it is located at the left area of the navigation bar. 
 
-A blue button should appear to click: _Make Public_,
+    *  Also at the right area of the navigation bar is the Home, About us, Register and contact that links to various section of the same page.
 
-Another blue button should appear to click: _Open Browser_.
+    * The navigation bar is rich in color and contrast with a complimenting font.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
+![navigation](/screenshot/navbar.png)
 
-Another blue button should appear to click: _Open Browser_.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+*Header
 
-To log into the Heroku toolbelt CLI:
+	*This section consists of the hero image and the name of the website.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+	* The hero image passes a message of fitness and happiness and shows that wellness is not gender specific.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
+![hero image](/screenshot/heroimagesection.png)
 
-## Release History
+*About us 
+	*This section gives an over view of what services the company offer to her client.
+  	*The section also, highlight some of the habits that impact people's health and how to manage them.
+	* It gives the client the guarantee to make drastic changes within a short time frame.
+	
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+![About Us](/screenshot/about.png)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+*Pricing and packages Section.
+	*This section consits of three different subscription plans that a client can choose from ranging from Basic, Silver and Gold depending on the choice of the client.
+	* The prices of each plan is also indicated 
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+![pricing and packages](/screenshot/pricingandpackages.png)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+*Registration form
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+	* The form section allow clients to input their details and able to register to Wellness Haven.
+	* The details the form collects are First name, Last name, Phone number and email.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+![Register](/screenshot/formsection.png)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+*The footer section
+	
+	* The section consists of the contact of the company, the location address, telephone number and email address for enquiries and drop in appointments.
+	* The footer section also include links to different social media plaftform like facebook, twitter and instagram.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+![Footer and Contact](/screenshot/contactus.png)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+*Testing
+	*This page was tested by me on various browsers: Firefox,Safari,Chrome,Edge and works perfectly on all of this browsers.
+	*With the help of the devtols I confirm that this page works fine on all standard screen sizes with effecient functionality and responsiveness.
+       *I confirmed that all fonts on each section of the page is readable on all tested screens: the navigation, header, about us, pricing and packages register form and Footer and contact.
+	* I confirm that the form works fine by requirment of entries in every field and will only accept email in the email field, and the submit button works.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+*Bugs
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
 
-## FAQ about the uptime script
+*Validator Testing.
 
-**Why have you added this script?**
+	* HTML
+	The codes were tested on W3C Validator and no error was found.
+	*CSS
+	The codes were tested on Jigsaw Css Validator and no error was found.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+	*To meet the accessibility requirment an easy to read fonts and colors are chosen, and was tested through lighthouse report in devtools
 
-**How will this affect me?**
+![Light house report](/screenshot/lighthouse.png)
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+*unfixed Bugs
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
 
-**So….?**
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+*Deployment
+  *The page was deployed to Github Pages by following this steps.
+	* In the Github repository, navigate to the settings tab.
+	*From the source section drop-down menu,select the master branch
+	* Once the master branch has been selected, The page provides the link to the completed website
 
-**Can I opt out?**
+The Live link can be found here- Wellness have
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+*Credits
+	*content
+		*The code to make the social media links was taken from the Cl love running *link* project.
+		*The part of code to make the pricing and packages section is from W3C schools *links*
+		* The inspiration for the about us section was from an online journal health essentials.
+		* some how to does were watched from youtube links**
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+*Media
+   * The logo image was built from tailor brand website.
+	* The hero image was taken from Pexel *links*
+	
+	*The social media icons are from font awesome
+  
 
-**Anything more?**
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+    Hero Image taken from pexels
 
----
+    Inspirations drawn from healthcleveland
 
-Happy coding!
+    Part of the code used here for the pricing and packages is from
+
+
+

@@ -1,0 +1,684 @@
+/* all fonts imported from https://fonts.google.com/ */
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400&family=Orbitron:wght@400;500&family=Play&family=Satisfy&family=Stick+No+Bills:wght@200&family=Teko:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(255, 255, 255);
+
+}
+
+/* navigation */
+
+header {
+
+    padding: 0;
+    margin: 0 auto;
+}
+
+.logo img{
+    width: 40% ;
+    height: 0 auto;
+    margin: 1em 0 0.05em 0.05em;
+    padding: 0 0 0 2em;
+
+}
+
+
+.nav-box {
+    width: 100%;
+    margin: 0.05em 0 0.05em 0.04em;
+    
+    
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;   
+    
+}
+
+nav li { 
+    margin: 2em;
+
+}
+
+nav a {
+    color: rgb(16, 13, 184);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 0.8rem;
+}
+
+nav a:hover {
+    color: #e71111;
+}
+
+.current-page {
+    border-bottom: 0.1em solid #ff1f02;
+}
+
+.current-page:hover{
+    color: rgb(0, 0, 0);
+}
+
+
+/* end of navigation section*/
+
+/* main section */
+
+.hero-image {
+    width: 100%;
+    padding: 16em;
+    background: url("./images/hero-image.webp") no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+
+
+}
+
+.hero-text h1 {
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    font-family: 'Chakra Petch', sans-serif;
+    text-align: center;
+    letter-spacing: 0.05em;
+    padding: 1em;
+    margin: 1em ;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+.hero-text {    
+    width: 40%;   
+    top: 10em;
+    left: 45em;
+    position: absolute;
+}
+/* end of main section*/
+
+
+/*about us section*/
+
+#about-us p {
+    margin: 0 2.5em 0 2.5em;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+h2 {
+    text-align: center;
+    padding: 0.5em;
+    margin: 0.5em;
+    font-family: 'Play', sans-serif;
+    font-size: 1.2rem;
+
+}
+
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0.5em;
+    margin: 0.5em;
+    font-family: 'Play', sans-serif;
+    font-size: 0.8rem;
+}
+
+#contact {
+    text-align: center;
+    padding: 0.5em;
+    margin: 0.5em;
+    font-family: 'Play', sans-serif;
+    font-size: 1rem;
+
+}
+
+
+.services-container {
+    display: flex; 
+    justify-content: space-between;
+    text-align: justify;
+    margin: 0;
+
+}
+
+.services-left {
+
+    padding: 2em;
+    background-color: #e0d4ba;
+}
+
+.services-right {
+
+    padding: 2em;
+    background-color: #e0d4ba;
+    float: right;
+}
+
+
+/*end of about us section*/
+
+/*pricing and packages section*/
+
+.price-plans {
+
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    background-color: rgb(27, 98, 163);
+
+}
+
+.price {
+    list-style-type: none;
+    padding: 2em 0 2em 5em;
+}
+
+
+.packages {
+  
+    width: 50%;
+}
+
+
+/* Pricing header */
+.basic-header {
+    background-color: rgb(22, 5, 5);
+    color: white;
+    font-size: 1.5rem;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.silver-header {
+    background-color: silver;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.gold-header {
+    background-color: rgb(219, 166, 20);
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.price li {
+    border-bottom: 0.005em solid rgb(0, 0, 0);
+    padding: 1em;
+    width: 75%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.price .grey {
+    background-color: rgb(161, 67, 12); 
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;  
+        
+}
+
+.block-one {
+    background-color: #e3dfe0;
+    color: rgb(12, 12, 12);
+}
+
+.block-two {
+    background-color: #e3dfe0;
+}
+
+.block-three {
+    background-color: #e3dfe0;
+    color: rgb(8, 8, 8);
+}
+
+.button {
+    background-color: #0c0b44; /* Green */
+    border-radius: 0.5em;
+    color: white;
+    padding: 0.5em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+  }
+
+  .button {
+    transition-duration: 0.5s;
+  }
+  
+  .button:hover {
+    background-color: #4cafa7; /* Green */
+    color: white;
+  }
+
+
+/* The "Register" button */
+* {
+    box-sizing: border-box;
+  }
+
+
+  
+/* form section*/
+
+.form-container {
+    
+    padding: 0.5em;
+    text-align: center;
+    background-color: #e0d4ba;
+
+}
+
+.col-75 {
+ padding: 1em;
+
+}
+
+
+input[type=text], input[type=email], [type=tel] {
+    border: .005em solid rgb(0, 0, 0);
+    border-radius: 0.2em;
+    font-size: 1.2rem;
+    padding: 0.4em;
+    width: 25%;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+
+  }
+
+  input[type=submit] {
+    border-radius: 0.5em;
+    padding: 0.5em;    
+    width: 10%;
+    background-color: #000000;
+    color: rgb(230, 213, 213);
+    font-size: 1rem;
+  }
+
+  input[type=submit] {
+    transition-duration: 0.4s;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #16098d; /* Green */
+    color: white;    
+  }
+
+
+
+  label {
+    font-family: 'Play', sans-serif;
+    font-size: 1.2rem;
+    padding: 0.5em;
+  }
+
+
+
+/*footer*/
+
+.social-networks {
+    text-align: center;    
+    padding: 1.5em;
+    background-color: #0f118d;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 2rem;
+    margin: 1%;
+    padding: 1.5em;
+    color: #ffffff;
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    html, body {
+
+        width:100%;
+        overflow-x:hidden;
+    }
+
+    .hero-image {
+        width: 100%;
+        padding: 20em;
+    }
+    
+    .hero-text h1 {
+        font-size: 2rem;
+        padding: 0.5em;
+        margin-top: 0.05em ;
+    }
+    
+    
+    .hero-text {    
+        width: 20%;   
+        padding-top: 2em;
+        padding-left: 2em;
+        top: 10em;
+        left: 40em;
+        position: absolute;
+    }
+
+    .social-networks i {
+        font-size: 2rem;
+        margin: 1%;
+        padding: 1.5em;
+    
+    }
+}
+
+
+
+/*for medium screen (tablets and ipads)*/
+
+@media screen and (max-width: 810px) {
+
+    html, body {
+
+        width:100%;
+        overflow-x:hidden;
+    }
+ 
+
+    .logo img {
+        width: 30%;
+        
+    }
+
+    .nav-wrapper {
+        flex-direction: row;
+    }
+
+    .nav-box {
+        width: 100%;
+        padding: 0.5em;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    header {
+        text-align: center;
+        padding: 2em 0;  
+        
+    }
+   
+    nav ul {
+        display:flex;
+        list-style: none;
+        justify-content: center;
+        
+    }
+
+       
+    nav li {
+        margin:0 2em;
+    }
+
+    nav a {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 0.7rem;
+        font-family: 'Orbitron', sans-serif;
+        padding: 0.25em 0;
+    
+    }
+        
+    /* end of navigation layout*/
+
+    .hero-image img {
+        width: 100%;
+                
+            
+    }
+   
+.hero-text h1 {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-family: 'Chakra Petch', sans-serif;
+    text-align: center;
+    letter-spacing: 0.05em;
+    padding: 0.2em;
+    margin-top: 0.2em ;
+
+}
+
+.hero-text {    
+display: none;
+}
+    /*about us*/
+
+    #about-us p {
+        font-size: 1rem;
+        padding: 1em;
+        text-align: justify;
+    }
+            
+    .services-container {
+        width: 100%;
+        margin: 0 auto;
+        display: inline-block;
+        text-align: justify;
+    }
+    
+    .services-right {
+        background: #e0d4ba;
+        border: none;
+        font-size: 0.7rem;
+    }
+    
+    .services-left {
+        background: #e0d4ba;
+        border: none;
+        font-size: 0.7rem;
+    }
+    
+
+
+    /*pricing and packages*/
+        
+    .price-plans {
+        width: 100%;
+        display: block;
+        background: none;
+        justify-content: center;
+        font-size: 1rem;
+    }
+      
+
+    .packages {      
+        width: 100%;
+        padding: 0.5em;
+        margin-left: 2.5em;
+        font-size: 1rem;
+    }
+    
+    /*form section*/
+    
+    form  {
+        width: 60%;
+        margin: 0 auto;      
+    }
+
+    input[type=text], input[type=email], input[type=tel], input[type=submit] {
+
+        width:45%;
+        padding: 0.5em;
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    h3 {
+        font-size: 0.5rem;
+    }
+
+    #contact {
+    text-align: center;
+    padding: 0.5em;
+    margin: 0.5em;
+    font-family: 'Play', sans-serif;
+    font-size: 0.5rem;
+}
+
+    /*footer section*/
+
+    .social-networks {
+        display: flex;
+        text-align: center;
+        padding-left: 10em;    
+    }
+
+    .social-networks i {
+        font-size: 1rem;
+
+    }
+
+}
+
+
+/*for smaller screen and down (phones)*/
+
+@media screen and (max-width: 390px) {
+
+    html, body {
+        
+        width:100%;
+        overflow-x:hidden;
+    }
+
+    .logo img {
+        width: 90%;    
+        padding-right: 2em;
+        padding-top: 0;
+        margin-top: 0;
+    }
+
+    .nav-wrapper {
+        flex-direction: column;
+    }
+
+    header {
+       text-align: center;        
+    }
+   
+    nav ul {
+        flex-direction: column;
+        margin: 0.03em 0;
+    }
+
+       
+    nav li {
+        margin: 0.1em 0;
+    }
+        /* end of navigation layout*/
+
+   
+    .hero-image {
+        width: 100%;
+        margin-top: 0;
+        
+    }
+    
+    .hero-text {    
+        display: none;
+    }
+    
+    #about-us p {
+        font-size: 0.7rem;
+        padding: 0.5em;
+        text-align: justify;
+    }
+            
+    .services-container {
+        width: 100%;
+        margin: 0 auto;
+        display: inline-block;
+        text-align: justify;
+    }
+    
+    .services-right {
+        background: #e0d4ba;
+        border: none;
+        font-size: 0.7rem;
+    }
+    
+    .services-left {
+        background: #e0d4ba;
+        border: none;
+        font-size: 0.7rem;
+    }
+    
+        
+    .price-plans {
+        width: 100%;
+        display: block;
+        background: none;
+        justify-content: center;
+        font-size: 0.7rem;
+    }
+      
+
+    .packages {      
+        width: 100%;
+        margin-left: 1.5em;    
+        font-size: 0.7rem;
+    }
+    
+    /*form section*/
+    
+    form  {
+        width:75%;
+        margin: 0 auto;      
+    }
+
+    input[type=text], input[type=email], input[type=tel], input[type=submit] {
+
+        width:75%;
+        padding: 0.05em;
+        font-size: 0.7rem;
+    }
+
+
+    #contact {
+        text-align: center;
+        padding: 0.5em;
+        margin: 0.5em;
+        font-family: 'Play', sans-serif;
+        font-size: 0.5rem;    
+    }
+
+    .social-networks {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        padding: 0.5em;
+    }
+
+    .social-networks i {
+        font-size: 0.5rem;
+
+    }
+
+}
