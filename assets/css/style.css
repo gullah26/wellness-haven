@@ -1,63 +1,78 @@
-/* all fonts imported from https://fonts.google.com/ */
-
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400&family=Orbitron:wght@400;500&family=Play&family=Satisfy&family=Stick+No+Bills:wght@200&family=Teko:wght@300&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
 
 body {
     background: rgb(255, 255, 255);
-
 }
 
 /* navigation */
 
 header {
-
     padding: 0;
     margin: 0 auto;
 }
-
-.logo img{
-    width: 40% ;
-    height: 0 auto;
-    margin: 1em 0 0.05em 0.05em;
-    padding: 0 0 0 2em;
-
+/* logo */
+.logo {
+    width: 50%;
+    float: left;
+    overflow: auto;
+    padding-left: 2em;  
 }
 
+.logo img{
+    width: 10%;
+    float: left;
+    border-radius: 1em;
+    padding: 0.5em;    
+}
 
+.logo a{
+    text-decoration: none;
+}
+
+/* heading */
+.logo h1 {
+    font-size: 1rem;
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+    color: yellow;
+    letter-spacing: 0.05em;
+    padding-top: 1em;
+    margin-top: 0.5em;
+}
+
+/* navigation container and links */
 .nav-box {
     width: 100%;
-    margin: 0.05em 0 0.05em 0.04em;
-    
-    
+    padding-top: 1em;  
 }
 
 .nav-wrapper {
     display: flex;
-    justify-content: space-evenly;
-    
+    justify-content: space-between;
+    padding-right: 1em;
+    background: rgb(20, 26, 117);    
 }
 
 nav ul {
     list-style: none;
     display: flex;   
-    
 }
 
 nav li { 
-    margin: 2em;
-
+    margin: 1.5em;
 }
 
 nav a {
-    color: rgb(16, 13, 184);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Orbitron', sans-serif;
-    font-size: 0.8rem;
+    font-size: 0.8rem;    
 }
 
 nav a:hover {
@@ -65,13 +80,12 @@ nav a:hover {
 }
 
 .current-page {
-    border-bottom: 0.1em solid #ff1f02;
+    border-bottom: 0.2em solid #ff1f02;
 }
 
 .current-page:hover{
     color: rgb(0, 0, 0);
 }
-
 
 /* end of navigation section*/
 
@@ -84,100 +98,58 @@ nav a:hover {
     background-size: cover;
     background-position: center;
     overflow: hidden;
-
-
-}
-
-.hero-text h1 {
-    color: rgb(255, 255, 255);
-    font-size: 2.5rem;
-    font-family: 'Chakra Petch', sans-serif;
-    text-align: center;
-    letter-spacing: 0.05em;
-    padding: 1em;
-    margin: 1em ;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
-
-.hero-text {    
-    width: 40%;   
-    top: 10em;
-    left: 45em;
-    position: absolute;
 }
 /* end of main section*/
 
 
 /*about us section*/
 
-#about-us p {
-    margin: 0 2.5em 0 2.5em;
+.about-us p {
+    margin: 0 2em 0 2em;
     font-size: 1rem;
     text-align: justify;
 }
 
 h2 {
     text-align: center;
-    padding: 0.5em;
-    margin: 0.5em;
     font-family: 'Play', sans-serif;
-    font-size: 1.2rem;
-
+    font-size: 1.5rem;
+    margin: 0.5em;
 }
 
 h3 {
     text-align: center;
-    text-transform: uppercase;
-    padding: 0.5em;
-    margin: 0.5em;
+    text-transform: uppercase;    
     font-family: 'Play', sans-serif;
     font-size: 0.8rem;
-}
-
-#contact {
-    text-align: center;
-    padding: 0.5em;
     margin: 0.5em;
-    font-family: 'Play', sans-serif;
-    font-size: 1rem;
-
 }
-
 
 .services-container {
     display: flex; 
     justify-content: space-between;
     text-align: justify;
     margin: 0;
-
 }
 
 .services-left {
-
     padding: 2em;
     background-color: #e0d4ba;
 }
 
 .services-right {
-
     padding: 2em;
     background-color: #e0d4ba;
-    float: right;
 }
-
-
 /*end of about us section*/
 
 /*pricing and packages section*/
 
 .price-plans {
-
     display: flex;
     justify-content: space-evenly;
     margin: 0 auto;
     background-color: rgb(27, 98, 163);
-
 }
 
 .price {
@@ -185,12 +157,9 @@ h3 {
     padding: 2em 0 2em 5em;
 }
 
-
-.packages {
-  
+.packages {  
     width: 50%;
 }
-
 
 /* Pricing header */
 .basic-header {
@@ -228,8 +197,7 @@ h3 {
 .price .grey {
     background-color: rgb(161, 67, 12); 
     border-bottom-left-radius: 2em;
-    border-bottom-right-radius: 2em;  
-        
+    border-bottom-right-radius: 2em;        
 }
 
 .block-one {
@@ -247,7 +215,7 @@ h3 {
 }
 
 .button {
-    background-color: #0c0b44; /* Green */
+    background-color: #0c0b44;
     border-radius: 0.5em;
     color: white;
     padding: 0.5em;
@@ -262,33 +230,28 @@ h3 {
   }
   
   .button:hover {
-    background-color: #4cafa7; /* Green */
+    background-color: #4cafa7;
     color: white;
   }
 
 
 /* The "Register" button */
+
 * {
     box-sizing: border-box;
   }
 
-
-  
 /* form section*/
 
-.form-container {
-    
+.form-container {    
     padding: 0.5em;
     text-align: center;
     background-color: #e0d4ba;
-
 }
 
-.col-75 {
+.column {
  padding: 1em;
-
 }
-
 
 input[type=text], input[type=email], [type=tel] {
     border: .005em solid rgb(0, 0, 0);
@@ -298,7 +261,6 @@ input[type=text], input[type=email], [type=tel] {
     width: 25%;
     background-color: #ffffff;
     color: rgb(0, 0, 0);
-
   }
 
   input[type=submit] {
@@ -315,11 +277,9 @@ input[type=text], input[type=email], [type=tel] {
   }
   
   input[type=submit]:hover {
-    background-color: #16098d; /* Green */
+    background-color: #16098d;
     color: white;    
   }
-
-
 
   label {
     font-family: 'Play', sans-serif;
@@ -327,9 +287,15 @@ input[type=text], input[type=email], [type=tel] {
     padding: 0.5em;
   }
 
-
-
 /*footer*/
+
+#contact {
+    text-align: center;
+    padding: 0.5em;
+    margin: 0.5em;
+    font-family: 'Play', sans-serif;
+    font-size: 1rem;
+}
 
 .social-networks {
     text-align: center;    
@@ -348,11 +314,10 @@ input[type=text], input[type=email], [type=tel] {
     color: #ffffff;
 }
 
-
+/*for screens of 1200px */
 @media screen and (max-width: 1200px) {
 
     html, body {
-
         width:100%;
         overflow-x:hidden;
     }
@@ -361,47 +326,29 @@ input[type=text], input[type=email], [type=tel] {
         width: 100%;
         padding: 20em;
     }
-    
-    .hero-text h1 {
-        font-size: 2rem;
-        padding: 0.5em;
-        margin-top: 0.05em ;
-    }
-    
-    
-    .hero-text {    
-        width: 20%;   
-        padding-top: 2em;
-        padding-left: 2em;
-        top: 10em;
-        left: 40em;
-        position: absolute;
-    }
 
     .social-networks i {
         font-size: 2rem;
         margin: 1%;
-        padding: 1.5em;
-    
+        padding: 1.5em;    
     }
 }
-
-
 
 /*for medium screen (tablets and ipads)*/
 
 @media screen and (max-width: 810px) {
-
-    html, body {
-
+   html, body {
         width:100%;
         overflow-x:hidden;
     }
  
+ 
+    .logo {
+        width: 100%;              
+    }
 
     .logo img {
-        width: 30%;
-        
+        width: px;   
     }
 
     .nav-wrapper {
@@ -412,23 +359,19 @@ input[type=text], input[type=email], [type=tel] {
         width: 100%;
         padding: 0.5em;
         display: flex;
-        flex-direction: column;
-        
+        flex-direction: column;        
     }
 
-    header {
-        text-align: center;
-        padding: 2em 0;  
-        
+    .logo {
+        justify-content: center;
+        margin-left: 10em;               
     }
    
     nav ul {
         display:flex;
         list-style: none;
         justify-content: center;
-        
     }
-
        
     nav li {
         margin:0 2em;
@@ -439,35 +382,18 @@ input[type=text], input[type=email], [type=tel] {
         text-transform: uppercase;
         font-size: 0.7rem;
         font-family: 'Orbitron', sans-serif;
-        padding: 0.25em 0;
-    
+        padding: 0.25em 0;    
     }
         
     /* end of navigation layout*/
 
     .hero-image img {
-        width: 100%;
-                
-            
+        width: 100%;     
     }
-   
-.hero-text h1 {
-    color: rgb(255, 255, 255);
-    font-size: 2rem;
-    font-family: 'Chakra Petch', sans-serif;
-    text-align: center;
-    letter-spacing: 0.05em;
-    padding: 0.2em;
-    margin-top: 0.2em ;
-
-}
-
-.hero-text {    
-display: none;
-}
+  
     /*about us*/
 
-    #about-us p {
+    .about-us p {
         font-size: 1rem;
         padding: 1em;
         text-align: justify;
@@ -492,8 +418,6 @@ display: none;
         font-size: 0.7rem;
     }
     
-
-
     /*pricing and packages*/
         
     .price-plans {
@@ -502,8 +426,7 @@ display: none;
         background: none;
         justify-content: center;
         font-size: 1rem;
-    }
-      
+    }      
 
     .packages {      
         width: 100%;
@@ -520,7 +443,6 @@ display: none;
     }
 
     input[type=text], input[type=email], input[type=tel], input[type=submit] {
-
         width:45%;
         padding: 0.5em;
         font-size: 1rem;
@@ -541,18 +463,16 @@ display: none;
     font-family: 'Play', sans-serif;
     font-size: 0.5rem;
 }
-
     /*footer section*/
 
     .social-networks {
         display: flex;
         text-align: center;
-        padding-left: 10em;    
+        padding-left: 15em;    
     }
 
     .social-networks i {
         font-size: 1rem;
-
     }
 
 }
@@ -560,52 +480,44 @@ display: none;
 
 /*for smaller screen and down (phones)*/
 
-@media screen and (max-width: 390px) {
-
+@media screen and (max-width: 390px) {  
     html, body {
-        
         width:100%;
         overflow-x:hidden;
     }
 
+    .logo {
+        width: 100%;
+        margin: 0;
+        padding-right: 1em;
+    }
+
     .logo img {
-        width: 90%;    
-        padding-right: 2em;
-        padding-top: 0;
-        margin-top: 0;
+        width: 20%;
+        padding-left: 0;
     }
 
-    .nav-wrapper {
-        flex-direction: column;
-    }
-
-    header {
-       text-align: center;        
+    h1 {
+        text-align: center;
     }
    
     nav ul {
         flex-direction: column;
-        margin: 0.03em 0;
+        text-align: center;
     }
-
        
     nav li {
         margin: 0.1em 0;
     }
-        /* end of navigation layout*/
 
+        /* end of navigation layout*/
    
     .hero-image {
         width: 100%;
-        margin-top: 0;
-        
+        margin-top: 0;        
     }
     
-    .hero-text {    
-        display: none;
-    }
-    
-    #about-us p {
+    .about-us p {
         font-size: 0.7rem;
         padding: 0.5em;
         text-align: justify;
@@ -628,8 +540,7 @@ display: none;
         background: #e0d4ba;
         border: none;
         font-size: 0.7rem;
-    }
-    
+    }    
         
     .price-plans {
         width: 100%;
@@ -637,8 +548,7 @@ display: none;
         background: none;
         justify-content: center;
         font-size: 0.7rem;
-    }
-      
+    }      
 
     .packages {      
         width: 100%;
@@ -654,12 +564,10 @@ display: none;
     }
 
     input[type=text], input[type=email], input[type=tel], input[type=submit] {
-
         width:75%;
         padding: 0.05em;
         font-size: 0.7rem;
     }
-
 
     #contact {
         text-align: center;
@@ -678,7 +586,5 @@ display: none;
 
     .social-networks i {
         font-size: 0.5rem;
-
     }
-
 }
