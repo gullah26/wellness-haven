@@ -107,29 +107,26 @@ _______________________________
 
 * Once the master branch has been selected, The page provides the link to the completed website.
 
-* The Live link can be found here- Wellness haven
+* The Live link can be found here [wellness haven](https://gullah26.github.io/wellness-haven/ "wellness haven").
 
 ## Credits
 
 * Content
 
-	* The code to make the social media links was taken from the Cl love running *link* project.
+	* The code to make the social media links was taken from the Cl [love running](https://gullah26.github.io/love-running/ "love running"). project.
 
-	* The part of code to make the pricing and packages section is from W3C schools *links*
+	* The part of code to make the pricing and packages section is from [w3schools](https://www.w3schools.com/howto/howto_css_pricing_table.asp "w3schools")
 
 	* The inspiration for the about us section was from an online journal health essentials.
 
 
 ## Media
 
-* The logo image was built from tailor brand website.
+* The logo image was built from tailor brand website.[Tailor brand](https://studio.tailorbrands.com/business/88784036/wizard/editor?backTo=studio&currentId=6540191547&logosStepId=545660252&origBrandVersionId=6456904233&originalIndex=0 "tailor brand").
 
 * The hero image was taken from [Pexels](https://www.pexels.com/photo/positive-ethnic-woman-running-on-city-street-7242881/ "Pexels").
 	
 * The social media icons are from font-awesome [Font Awesome](https://fontawesome.com/ "Font-Awesome")
   
-* Inspirations drawn from [Health-Cleveland](https://health.clevelandclinic.org/what-is-a-health-coach/ "Health-Cleveland").
+* Inspirations drawn from [Health essentials](https://health.clevelandclinic.org/what-is-a-health-coach/ "Health essentials").
 
-* The Part of the code used here for the pricing and packages is from [W3Schools](https://www.w3schools.com/howto/howto_css_pricing_table.asp "W3Schools").
-
-* Part of the form section code was taken from 
